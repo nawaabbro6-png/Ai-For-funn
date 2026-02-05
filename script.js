@@ -17,7 +17,7 @@ function danceEl(elm) {
   }, 700);
 }
 
-const btn = document.querySelector("#move-random");
+const btn = document.querySelector("#ms-random");
 
 btn.addEventListener("click", function (e) {
   danceEl(e.target);
